@@ -1,6 +1,6 @@
 {
   "name": "sdk-sumup",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Put all sdks together",
   "main": "index.js",
   "scripts": {
@@ -11,11 +11,7 @@
     "url": "git@github.com:lwd426/sdk-sumup.git"
   },
   "bin": {
-    "ssup": "./lib/index.js",
-    "ssn": "./lib/setsdkname.js",
-    "ssb": "./lib/setbranch.js",
-    "sss": "./lib/setfiles.js",
-    "ssc": "./lib/outputConfig.js"
+    "sdksum": "./lib/index.js"
   },
   "keywords": [
     "sdk",
@@ -24,6 +20,7 @@
   "author": "lwd426",
   "license": "ISC",
   "dependencies": {
+    "commander": "^2.9.0",
     "fs-extra": "^1.0.0",
     "yamljs": "^0.2.8"
   }
