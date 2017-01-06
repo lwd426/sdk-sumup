@@ -1,0 +1,5 @@
+sdk_name: lwl426
+src_dir: dist/
+branch_name: danmu
+lem_sdk_dir: temp/lem_sdk
+git: git clone git@git.letv.cn:lem/lem_sdk.git

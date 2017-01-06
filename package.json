@@ -1,0 +1,30 @@
+{
+  "name": "sdk-sumup",
+  "version": "1.0.3",
+  "description": "Put all sdks together",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.letv.cn:liuweidong/SDKUP.git"
+  },
+  "bin": {
+    "ssup": "./lib/index.js",
+    "ssn": "./lib/setsdkname.js",
+    "ssb": "./lib/setbranch.js",
+    "sss": "./lib/setfiles.js",
+    "ssc": "./lib/outputConfig.js"
+  },
+  "keywords": [
+    "sdk",
+    "sumup"
+  ],
+  "author": "lwd426",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^1.0.0",
+    "yamljs": "^0.2.8"
+  }
+}
