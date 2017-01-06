@@ -24,7 +24,6 @@ npm i sdk-sumup -g
 
 4.执行以下命令把自己的sdk归集到lem_sdk工程git库自定义的分支下
 ```js
-ssu  (sdk-sumup upload的简称)
+ssup  (sdk-sumup upload的简称)
 ```
 
-6.进入 http://10.154.30.228/manny/publish/front/pages/seemyownonetask.html 进行上线到测试机或生产环境

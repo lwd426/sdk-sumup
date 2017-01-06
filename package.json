@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@git.letv.cn:liuweidong/SDKUP.git"
+    "url": "git@github.com:lwd426/sdk-sumup.git"
   },
   "bin": {
     "ssup": "./lib/index.js",
