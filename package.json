@@ -1,6 +1,6 @@
 {
   "name": "sdk-sumup",
-  "version": "1.0.4",
+  "version": "1.1.1",
   "description": "Put all sdks together",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,7 @@
   "author": "lwd426",
   "license": "ISC",
   "dependencies": {
+    "colors": "^1.1.2",
     "commander": "^2.9.0",
     "fs-extra": "^1.0.0",
     "yamljs": "^0.2.8"
